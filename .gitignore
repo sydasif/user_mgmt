@@ -1,0 +1,21 @@
+# Byte-code files
+*.pyc
+__pycache__/
+core/*.pyc
+
+# Virtual environment
+.venv/
+venv/
+
+# SQLite database
+db.sqlite3
+
+# Environment variables
+.env
+
+# Media and static files (if applicable)
+media/
+static/
+
+# Pipenv lock file (optional, often tracked)
+# Pipfile.lock
