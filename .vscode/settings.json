@@ -1,4 +1,7 @@
 {
-    "djlint.useVenv": false,
     "djlint.pythonPath": "C:\\Users\\Zulu\\.virtualenvs\\user_mgmt-cQNJeVFD\\Scripts\\python.exe",
+    "cSpell.words": [
+        "asgi",
+        "xeex"
+    ],
 }
