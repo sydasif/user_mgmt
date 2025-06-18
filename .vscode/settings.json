@@ -1,13 +1,4 @@
 {
     "djlint.useVenv": false,
     "djlint.pythonPath": "C:\\Users\\Zulu\\.virtualenvs\\user_mgmt-cQNJeVFD\\Scripts\\python.exe",
-    "pylint.args": [
-        "--disable=no-member",
-        "--disable=missing-module-docstring",
-        "--disable=missing-class-docstring",
-        "--disable=missing-function-docstring",
-        "--max-line-length=120",
-        "--disable=import-outside-toplevel",
-
-    ],
 }
