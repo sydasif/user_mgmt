@@ -3,6 +3,7 @@
   <head>
     <!-- Required meta tags -->
     <meta charset="utf-8">
+    <meta name="description" content="A simple user management application.">
     <meta name="viewport"
           content="width=device-width, initial-scale=1, shrink-to-fit=no">
     <!-- Bootstrap CSS -->
@@ -10,17 +11,22 @@
           href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css"
           integrity="sha384-Gn5384xqQ1aoWXA+058RXPxPg6fy4IWvTNh0E263XmFcJlSAwiGgFAW/dAiS6JXm"
           crossorigin="anonymous">
+    <style>
+      .navbar-custom {
+        background-color: #f0f5f5;
+      }
+    </style>
     <title>
-      {% block title %}{% endblock %}
+      {% block title %}
+      {% endblock title %}
     </title>
   </head>
   <body>
     <div class="container p-3 my-3">
       <div class="row">
         <div class="col-md-12">
-          <nav class="navbar navbar-expand-md navbar-light "
-               style="background-color: #f0f5f5">
-            <a href="/" class="navbar-brand">Home</a>
+          <nav class="navbar navbar-expand-md navbar-light navbar-custom">
+            <a href="{% url 'users-home' %}" class="navbar-brand">Home</a>
             <button type="button"
                     class="navbar-toggler"
                     data-toggle="collapse"
@@ -35,7 +41,8 @@
               </div>
             </div>
           </nav>
-          {% block content %}{% endblock %}
+          {% block content %}
+          {% endblock content %}
         </div>
       </div>
     </div>
